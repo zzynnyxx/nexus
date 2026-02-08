@@ -9,6 +9,13 @@ class AppPallete {
   static const Color primaryOrange = Color(0xFFF77737);
   static const Color primaryYellow = Color(0xFFFFDC80);
 
+  // We map 'gradient1' and 'gradient2' to your brand colors for the buttons
+  static const Color gradient1 = primaryPurple;
+  static const Color gradient2 = primaryRed;
+
+  // A specific dark grey for input borders
+  static const Color borderColor = Color.fromRGBO(52, 51, 67, 1);
+
   // 2.The Neutral Tones (Backgrounds & Text)
   static const Color white = Colors.white;
   static const Color black = Colors.black;
@@ -36,7 +43,7 @@ class AppPallete {
       Colors.transparent; // Transparent (useful for overlays)
 
   // 4. The Famous "Story Gradient"
-  static const LinearGradient storyGraient = LinearGradient(
+  static const LinearGradient storyGradient = LinearGradient(
     begin: Alignment.topRight,
     end: Alignment.bottomLeft,
     colors: [primaryPurple, primaryRed, primaryOrange, primaryYellow],

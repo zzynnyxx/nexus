@@ -43,3 +43,13 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Secrets and Keys
+lib/core/secrets/app_secrets.dart
+
+# 1. Environment Variables (If you use them later)
+.env
+
+# 2. Android Signing Keys (Crucial for when you release to Play Store)
+android/key.properties
+android/local.properties
